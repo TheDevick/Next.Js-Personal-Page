@@ -10,16 +10,30 @@ const StyledMenu = styled.nav`
 
     color: #4A4A4A;
     width: 20%;
+
+    @media (max-width: 992px) {
+        width: 90%;
+        margin-top: 30px;
+    }
 `;
 
 const StyledList = styled.ul`
     display: flex;
     justify-content: space-between;
+
+    @media (max-width: 370px) {
+        flex-direction: column;
+        align-items: center;
+    }
 `;
 
 const StyledItem = styled.li`
     display: block;
     height: max-content;
+    
+    @media (max-width: 370px) {
+        margin-top: 10px;
+    }
 `
 
 const StyledLink = styled.a`
