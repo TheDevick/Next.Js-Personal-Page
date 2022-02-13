@@ -9,6 +9,10 @@ const StyledTitle = styled.h1`
     letter-spacing: 0.6px;
 
     color: #4A4A4A;
+
+    @media (max-width: 992px) {
+        text-align: center;
+    }
 `;
 
 export default function Title({ children }) {
