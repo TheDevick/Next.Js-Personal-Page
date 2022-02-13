@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import React from 'react'
 import { createGlobalStyle } from 'styled-components'
 
@@ -23,11 +24,11 @@ const GlobalStyle = createGlobalStyle`
 export default function App({ Component, pageProps }) {
     return (
         <React.Fragment>
-            <head>
+            <Head>
                 <link rel="preconnect" href={Font.Preconnect.GoogleApis} />
                 <link rel="preconnect" href={Font.Preconnect.GStatic} />
                 <link rel="stylesheet" href={Font.href} />
-            </head>
+            </Head>
             <GlobalStyle />
             <Component {...pageProps} />
         </React.Fragment>
