@@ -9,7 +9,7 @@ const StyledMenu = styled.nav`
     letter-spacing: 0.6px;
 
     color: #4A4A4A;
-    width: 20%;
+    width: 30%;
 
     @media (max-width: 992px) {
         width: 90%;

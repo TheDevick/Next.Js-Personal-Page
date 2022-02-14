@@ -16,7 +16,6 @@ const StyledTitle = styled.h1`
 `;
 
 export default function Title({ children }) {
-
     return (
         <StyledTitle> {children} </StyledTitle>
     )
