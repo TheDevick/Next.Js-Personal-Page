@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Subtitle from "./Subtitle"
 
 const StyledDiv = styled.div`
     margin: 65px 151px 28px 151px;
@@ -11,7 +12,7 @@ const StyledDiv = styled.div`
 export default function Description() {
     return (
         <StyledDiv>
-            <h2>Description</h2>
+            <Subtitle>Hi 👋, I'm Erick, a 15 Years Old Brazilian Developer! Currently Studying Lumen (Laravel) and Next.Js.</Subtitle>
         </StyledDiv>
     )
 }
