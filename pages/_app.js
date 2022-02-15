@@ -25,6 +25,8 @@ export default function App({ Component, pageProps }) {
     return (
         <React.Fragment>
             <Head>
+                <title>Erick Bilhalba Abella - Personal Page</title>
+
                 <link rel="preconnect" href={Font.Preconnect.GoogleApis} />
                 <link rel="preconnect" href={Font.Preconnect.GStatic} />
                 <link rel="stylesheet" href={Font.href} />
