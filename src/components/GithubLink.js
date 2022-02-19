@@ -13,12 +13,14 @@ const BasicStyledLink = styled.a`
 
 export default function GithubLink({
     User = "DinosDev",
+    Repository = "", 
     StyledLink = BasicStyledLink,
-    children = "Github"
+    children = "Github",
+    target = "_blank"
 }) {
-    const GithubLink = `https://github.com/${User}`
+    const GithubLink = `https://github.com/${User}/${Repository}`;
 
     return (
-        <StyledLink href={GithubLink}>{children}</StyledLink>
+        <StyledLink href={GithubLink} target={target}>{children}</StyledLink>
     )
 }
