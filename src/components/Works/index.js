@@ -22,6 +22,15 @@ export default function Works() {
                     Github: {
                         Repo: "Next.Js-Personal-Page"
                     }
+                },
+                {
+                    Title: "Nystron Website",
+                    Img: "/src/images/works/nystron.png",
+                    Content: "The Madeireira Nystron Website. I made it using React.Js and Styled-Components.\n Deployed on Vercel.\n My First Project Using TypeScript and Next.Js.",
+                    Github: {
+                        Repo: "Next.Js-Personal-Page"
+                    },
+                    Link: "https://nystron.com"
                 }
             ]} />
         </StyledDiv>
