@@ -21,7 +21,8 @@ export default function Works() {
                     Content: "Just This Page. I made it using React.Js and Styled-Components.\n Deployed on Vercel.",
                     Github: {
                         Repo: "Next.Js-Personal-Page"
-                    }
+                    },
+                    Link: "https://dinosdev.vercel.app/"
                 },
                 {
                     Title: "Nystron Website",

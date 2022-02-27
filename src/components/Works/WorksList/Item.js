@@ -28,6 +28,19 @@ const ContentText = styled.p`
     white-space: pre-line;
 `
 
+const WebsiteLink = styled.a`
+    display: block;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+
+    letter-spacing: 0.45px;
+
+    color: #4A4A4A;
+`
+
 export default function Item({ Item, Reverse }) {
     const GithubUser = Item.Github.User ? false : "DinosDev";
     const GithubRepo = Item.Github.Repo;
@@ -39,6 +52,7 @@ export default function Item({ Item, Reverse }) {
                 <h3>{Item.Title}</h3>
                 <ContentText>{Item.Content}</ContentText>
                 <GithubLink User={GithubUser} Repository={GithubRepo} />
+                <WebsiteLink href={Item.Link} target="_blank">Page</WebsiteLink>
             </ContentDiv>
         </Div>
     );
