@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Link from "next/link";
 
 const StyledMenu = styled.nav`
     font-style: normal;
@@ -36,6 +37,8 @@ const StyledItem = styled.li`
     }
 `
 
+const StyledNextLink = styled(Link)``
+
 const StyledLink = styled.a`
     font-style: normal;
     font-weight: medium;
@@ -55,7 +58,9 @@ export default function Menu({ items }) {
             <StyledList>
                 {items.map((item, key) => (
                     <StyledItem key={key}>
-                        <StyledLink href={item.url}>{item.title}</StyledLink>
+                        <StyledNextLink href={item.url}>
+                            <StyledLink>{item.title}</StyledLink>
+                        </StyledNextLink>
                     </StyledItem>
                 ))}
             </StyledList>
