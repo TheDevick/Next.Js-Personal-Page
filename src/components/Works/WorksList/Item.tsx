@@ -1,7 +1,11 @@
 import styled from "styled-components";
 import GithubLink from "../../GithubLink";
 
-const Div = styled.div`
+interface DivProps {
+    Reverse: boolean;
+}
+
+const Div = styled.div<DivProps>`
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -41,7 +45,7 @@ const WebsiteLink = styled.a`
     color: #4A4A4A;
 `
 
-export default function Item({ Item, Reverse }) {
+export default function Item({ Item, Reverse }: any) {
     const GithubUser = Item.Github.User ? false : "DinosDev";
     const GithubRepo = Item.Github.Repo;
 

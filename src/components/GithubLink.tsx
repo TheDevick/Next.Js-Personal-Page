@@ -17,7 +17,7 @@ export default function GithubLink({
     StyledLink = BasicStyledLink,
     children = "Github",
     target = "_blank"
-}) {
+}: any) {
     const GithubLink = `https://github.com/${User}/${Repository}`;
 
     return (
