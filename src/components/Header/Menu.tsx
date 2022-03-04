@@ -52,11 +52,11 @@ const StyledLink = styled.a`
     display: block;
 `;
 
-export default function Menu({ items }) {
+export default function Menu({ items }: any) {
     return (
         <StyledMenu>
             <StyledList>
-                {items.map((item, key) => (
+                {items.map((item: any, key: any) => (
                     <StyledItem key={key}>
                         <StyledNextLink href={item.url}>
                             <StyledLink>{item.title}</StyledLink>

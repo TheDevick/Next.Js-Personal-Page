@@ -21,7 +21,7 @@ const GlobalStyle = createGlobalStyle`
   }
 `
 
-export default function App({ Component, pageProps }) {
+export default function App({ Component, pageProps }: any) {
     return (
         <React.Fragment>
             <Head>
