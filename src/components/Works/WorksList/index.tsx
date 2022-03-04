@@ -11,10 +11,10 @@ const StyledDiv = styled.div`
     }
 `
 
-export default function WorksList({ List }) {
+export default function WorksList({ List }: any) {
     return (
         <StyledDiv>
-            {List.map((item, index) => {
+            {List.map((item: any, index: any) => {
                 isReverse = !isReverse;
 
                 return <Item key={index} Item={item} Reverse={isReverse} />
