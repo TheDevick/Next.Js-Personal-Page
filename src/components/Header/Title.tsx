@@ -15,7 +15,7 @@ const StyledTitle = styled.h1`
     }
 `;
 
-export default function Title({ children }) {
+export default function Title({ children }: any) {
     return (
         <StyledTitle> {children} </StyledTitle>
     )
