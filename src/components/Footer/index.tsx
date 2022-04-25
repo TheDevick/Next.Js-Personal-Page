@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import SocialMedia from "./SocialMedia";
 
 const FooterContainer = styled.footer`
     background-color: black;
@@ -24,6 +25,7 @@ const FooterContainer = styled.footer`
 export default function Footer() {
     return (
         <FooterContainer>
+            <SocialMedia />
         </FooterContainer>
     )
 }
