@@ -25,7 +25,7 @@ const StyledLink = styled.a`
 export default function Description() {
     return (
         <StyledDiv>
-            <Subtitle>Hi 👋, I'm Erick, a 15 Years Old Brazilian Developer! Currently Studying Lumen (Laravel) and Next.Js.</Subtitle>
+            <Subtitle>Hi 👋, I'm Erick, a 15 Years Old Brazilian Developer! Currently Studying Laravel and Next.Js.</Subtitle>
 
             <About>
                 With a Lot of Projects in <GithubLink>Github</GithubLink>, I Love to Explore New Things.
@@ -37,7 +37,7 @@ export default function Description() {
                 <StyledLink href="https://www.docker.com/">Docker</StyledLink>, {' '}
                 <StyledLink href="https://www.python.org/">Python</StyledLink>, {' '}
                 <StyledLink href="https://unity.com/">C# (Unity)</StyledLink>, And Of Course, {' '}
-                <StyledLink href="https://lumen.laravel.com/">Lumen</StyledLink> and <StyledLink href="https://nextjs.org/">Next.js</StyledLink>!
+                <StyledLink href="https://laravel.com/">Laravel</StyledLink> and <StyledLink href="https://nextjs.org/">Next.js</StyledLink>!
             </About>
         </StyledDiv>
     )
