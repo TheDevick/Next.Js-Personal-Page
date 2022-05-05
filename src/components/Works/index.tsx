@@ -12,7 +12,7 @@ const StyledDiv = styled.div`
 
 export default function Works() {
     return (
-        <StyledDiv id="works">
+        <StyledDiv id="Works">
             <Title>Works</Title>
             <WorksList List={[
                 {

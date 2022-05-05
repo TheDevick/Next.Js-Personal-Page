@@ -58,7 +58,7 @@ export default function Menu({ items }: any) {
             <StyledList>
                 {items.map((item: any, key: any) => (
                     <StyledItem key={key}>
-                        <StyledNextLink href={item.url}>
+                        <StyledNextLink href={item.url} passHref>
                             <StyledLink>{item.title}</StyledLink>
                         </StyledNextLink>
                     </StyledItem>
