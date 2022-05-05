@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Title from "./Title";
+import Title from "../SectionTitle";
 import WorksList from "./WorksList";
 
 const StyledDiv = styled.div`
