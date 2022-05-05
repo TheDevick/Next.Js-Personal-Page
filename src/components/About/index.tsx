@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Title from "../SectionTitle";
+import Text from "./Text";
 
 const StyledDiv = styled.div`
     margin: 65px 151px 28px 151px;
@@ -13,6 +14,8 @@ export default function About() {
     return (
         <StyledDiv id="About">
             <Title>About</Title>
+
+            <Text />
         </StyledDiv>
     )
 }
