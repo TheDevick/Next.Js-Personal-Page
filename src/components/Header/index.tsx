@@ -20,7 +20,7 @@ export default function Header() {
             <Title>Erick Bilhalba Abella</Title>
             <Menu items={[
                 { title: "Works", url: "#Works" },
-                { title: "About", url: "/about" },
+                { title: "About", url: "#About" },
                 { title: "Contact", url: "/contact" },
             ]} />
         </StyledHeader>
