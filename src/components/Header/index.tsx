@@ -21,7 +21,7 @@ export default function Header() {
             <Menu items={[
                 { title: "Works", url: "#Works" },
                 { title: "About", url: "#About" },
-                { title: "Contact", url: "/contact" },
+                { title: "Contact", url: "#Contact" },
             ]} />
         </StyledHeader>
     )

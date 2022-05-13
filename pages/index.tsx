@@ -4,6 +4,7 @@ import Description from "../src/components/Description";
 import Works from "../src/components/Works";
 import About from "../src/components/About";
 import Footer from "../src/components/Footer";
+import Contact from "../src/components/Contact";
 
 export default function HomePage() {
     return (
@@ -12,6 +13,7 @@ export default function HomePage() {
             <Description />
             <Works />
             <About />
+            <Contact />
             <Footer />
         </React.Fragment>
     );
