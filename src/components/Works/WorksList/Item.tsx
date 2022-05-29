@@ -46,8 +46,18 @@ const WebsiteLink = styled.a`
 `
 
 export default function Item({ Item, Reverse }: any) {
-    const GithubUser = Item.Github.User ? false : "DinosDev";
+    const GithubUser = Item.Github.User ? Item.Github.User : "DinosDev";
     const GithubRepo = Item.Github.Repo;
+
+    const WebsiteLinkComponent = () => {
+        if (Item.Link != false) {
+            return (
+                <WebsiteLink href={Item.Link} target="_blank">Page</WebsiteLink>
+            )
+        } else {
+            return (<div> </div>);
+        }
+    }
 
     return (
         <Div Reverse={Reverse}>
@@ -56,7 +66,7 @@ export default function Item({ Item, Reverse }: any) {
                 <h3>{Item.Title}</h3>
                 <ContentText>{Item.Content}</ContentText>
                 <GithubLink User={GithubUser} Repository={GithubRepo} />
-                <WebsiteLink href={Item.Link} target="_blank">Page</WebsiteLink>
+                <WebsiteLinkComponent />
             </ContentDiv>
         </Div>
     );

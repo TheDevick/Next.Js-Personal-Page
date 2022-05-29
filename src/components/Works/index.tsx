@@ -32,6 +32,24 @@ export default function Works() {
                         Repo: "Next.Js-Personal-Page"
                     },
                     Link: "https://nystron.com"
+                },
+                {
+                    Title: "Racing Coffe Backend",
+                    Img: "/src/images/works/racingcoffe.png",
+                    Content: "The Racing Coffe Blog Backend. I made it using Laravel.\n Not Deployed Yet.\n My First Project Using Laravel Cache and Laravel Sail.",
+                    Github: {
+                        User: "Racing-Coffe",
+                        Repo: "backend"
+                    },
+                },
+                {
+                    Title: "Racing Coffe FrontEnd",
+                    Img: "/src/images/works/racingcoffe.png",
+                    Content: "The Racing Coffe Blog FrontEnd. I made it using Next.Js.\n Not Deployed Yet.\n My First Project Using an API Data.",
+                    Github: {
+                        User: "Racing-Coffe",
+                        Repo: "frontend"
+                    },
                 }
             ]} />
         </StyledDiv>
