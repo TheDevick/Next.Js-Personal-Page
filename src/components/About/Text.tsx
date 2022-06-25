@@ -49,7 +49,7 @@ export default function Text() {
     return (
         <StyledText>
             Born in <ItalicText>Porto Alegre</ItalicText>, <ItalicText>Brazil</ItalicText>, I'm a <BoldText>Full-Stack Developer</BoldText>, currently studying <ItalicText>Laravel</ItalicText> and <ItalicText>Next.Js</ItalicText>.<br /><br />
-            I'm currently working on this website, and have many plans for the future.<br /><br />
+            I'm currently working on <Link href="https://github.com/Racing-Coffe">Racing Coffe Project</Link>, and have many plans for the future.<br /><br />
             I Study at <BoldText><Link href="https://alura.com.br">Alura</Link></BoldText> - A Brazilian Startup focused on technology and education.<br /><br />
             I'm a self-taught Programmer, and I'm always looking for new challenges and like to learn new things. <br /><br />
             <BoldText>Fun Fact</BoldText>: I <BoldText>don't deploy on Fridays</BoldText> and my Weekends are very busy watching <BoldText>F1 races</BoldText>. <br /><br />
