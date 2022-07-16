@@ -37,7 +37,7 @@ export default function Description() {
                 <StyledLink href="https://www.docker.com/">Docker</StyledLink>, {' '}
                 <StyledLink href="https://www.python.org/">Python</StyledLink>, {' '}
                 <StyledLink href="https://unity.com/">C# (Unity)</StyledLink>, And Of Course, {' '}
-                <StyledLink href="https://laravel.com/">Laravel</StyledLink> and <StyledLink href="https://nextjs.org/">Next.js</StyledLink>!
+                <StyledLink href="https://laravel.com/">Laravel</StyledLink> and <StyledLink href="https://https://symfony.com//">Symfony</StyledLink>!
             </About>
         </StyledDiv>
     )
