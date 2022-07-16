@@ -12,7 +12,7 @@ const BasicStyledLink = styled.a`
 `
 
 export default function GithubLink({
-    User = "DinosDev",
+    User = "TheDevick",
     Repository = "", 
     StyledLink = BasicStyledLink,
     children = "Github",
