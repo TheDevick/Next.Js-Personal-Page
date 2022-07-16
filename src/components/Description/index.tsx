@@ -25,7 +25,7 @@ const StyledLink = styled.a`
 export default function Description() {
     return (
         <StyledDiv>
-            <Subtitle>Hi 👋, I'm Erick, a 15 Years Old Brazilian Developer! Currently Studying Laravel and Next.Js.</Subtitle>
+            <Subtitle>Hi 👋, I'm Erick, a 15 Years Old Brazilian Developer! Currently Studying Laravel and Symfony.</Subtitle>
 
             <About>
                 With a Lot of Projects in <GithubLink>Github</GithubLink>, I Love to Explore New Things.
